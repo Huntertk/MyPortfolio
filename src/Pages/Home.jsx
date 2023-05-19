@@ -4,6 +4,7 @@ import { BsGithub, BsTwitter } from "react-icons/bs";
 import { SiNetlify } from "react-icons/si";
 import avatarImg from '../assets/images/developer-avatar.png'
 import { Context } from '../components/Context'
+import Skills from '../components/Skills';
 
 
 const Home = () => {
@@ -28,6 +29,8 @@ const Home = () => {
     </div>
 
     <img src={avatarImg} alt="avatar-image" className='avatar-img' />
+
+    <Skills />
     </div>
   )
 }

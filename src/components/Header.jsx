@@ -9,11 +9,11 @@ const Header = () => {
 
   return (
     <div className='header-container'>
-      <img src={logo} alt="logo" className={`${context.theme ? 'dark-mode-img' : null} header-logo`}/>
+      <img src={logo} alt="logo" className={`${context.theme ? 'rotate-center dark-mode-img' : null} header-logo`}/>
       <div className="header-menu-container">
-        <div onClick={context.handleChangeTheme} className='icon-container' >
+        <div onClick={context.handleChangeTheme} className={`icon-container`}>
             {
-                context.theme ? <BsFillSunFill /> : <BsMoonStarsFill />
+                context.theme ? <BsFillSunFill className='rotate-center' /> : <BsMoonStarsFill className='rotate-center' />
             }
         </div>
         <p>About</p>

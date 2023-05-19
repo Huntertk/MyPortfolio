@@ -1,0 +1,10 @@
+
+.skills-icon-container{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+}
+.icon{
+    font-size: 3rem;
+    margin: 1rem;
+}
