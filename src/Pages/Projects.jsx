@@ -3,7 +3,8 @@ import './projects.css'
 import projectImg from '../assets/images/project-1.png'
 import projectImgOne from '../assets/images/project-2.png'
 import { BsGithub } from "react-icons/bs";
-import { SiNetlify } from "react-icons/si";
+import { BsBrowserChrome } from "react-icons/bs";
+
 import { Context } from '../components/Context';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
@@ -26,7 +27,7 @@ const Projects = () => {
         <h3>Youtube Clone</h3>
         <div className="project-button-container">
             <a href='https://github.com/Huntertk/YoutubeClone' target='_blank'><BsGithub className='project-btn-icon github' /></a>  
-           <a href='https://react-youtube-clone-app-taufik.netlify.app' target='_blank'> <SiNetlify className='project-btn-icon netlify' /> </a>
+           <a href='https://react-youtube-clone-app-taufik.netlify.app' target='_blank'> <BsBrowserChrome className='project-btn-icon netlify' /> </a>
         </div>
       </div>
 
@@ -39,7 +40,7 @@ const Projects = () => {
         <h3>Anonymously Tweet</h3>
         <div className="project-button-container">
            <a href='https://github.com/Huntertk/Anonymously-Tweet' target='_blank'><BsGithub className='project-btn-icon github' /></a>  
-           <a href='https://react-anonymously-tweet-app-taufik.netlify.app' target='_blank'> <SiNetlify className='project-btn-icon netlify' /> </a>
+           <a href='https://react-anonymously-tweet-app-taufik.netlify.app' target='_blank'> <BsBrowserChrome className='project-btn-icon netlify' /> </a>
         </div>
       </div>
     </div>
