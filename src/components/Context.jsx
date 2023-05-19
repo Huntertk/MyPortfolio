@@ -3,7 +3,7 @@ const Context  = createContext();
 
 
 const ContextProvider = (props) => {
-    const [theme, setTheme] = useState(false)
+    const [theme, setTheme] = useState(true)
     const handleChangeTheme = () => {
         setTheme((prev) => {
             return prev ? false : true
