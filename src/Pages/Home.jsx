@@ -5,6 +5,7 @@ import { SiNetlify } from "react-icons/si";
 import avatarImg from '../assets/images/developer-avatar.png'
 import { Context } from '../components/Context'
 import Skills from '../components/Skills';
+import Projects from './Projects';
 
 
 const Home = () => {
@@ -32,7 +33,8 @@ const Home = () => {
     <h1 id='skills-h1'>Skills</h1>
     <Skills />
 
-    
+    <h1 id='projects-h1'>Projects</h1>
+    <Projects />
 
     </div>
   )
