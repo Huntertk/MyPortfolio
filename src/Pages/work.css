@@ -1,0 +1,59 @@
+.work-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.work-project{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    border-radius: 16px;
+    margin-top: 2rem;
+}
+.work-project-image{
+    width: 200px;
+}
+
+.work-project h1{
+    font-size: 1.52rem;
+}
+
+.work-project p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    text-transform: lowercase;
+}
+.work-project-language{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+.work-project-language span{
+    background-color: #025464;
+    color: #f5f5f5;
+    outline: none;
+    padding: 0.51rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+}
+.work-icon{
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
