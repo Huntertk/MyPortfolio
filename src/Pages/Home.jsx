@@ -5,7 +5,7 @@ import { SiNetlify } from "react-icons/si";
 import avatarImg from '../assets/images/developer-avatar.png'
 import { Context } from '../components/Context'
 import Skills from '../components/Skills';
-import Projects from './Projects';
+import Projects from '../components/Projects';
 
 
 const Home = () => {

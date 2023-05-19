@@ -5,7 +5,7 @@ import projectImgOne from '../assets/images/project-2.png'
 import { BsGithub } from "react-icons/bs";
 import { BsBrowserChrome } from "react-icons/bs";
 
-import { Context } from '../components/Context';
+import { Context } from './Context';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 

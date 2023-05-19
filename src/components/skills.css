@@ -9,3 +9,12 @@
     margin: 1rem;
     margin-left: 2rem;
 }
+
+
+/*Media Queries*/
+@media screen and (min-width: 700px) {
+    .icon{
+        font-size: 5rem;
+        margin-left: 5rem;
+    }
+}

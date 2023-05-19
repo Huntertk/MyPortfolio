@@ -4,16 +4,21 @@ import Layout from './components/Layout'
 import Home from './Pages/Home'
 import './App.css'
 import { Context } from './components/Context'
+import Work from './Pages/Work'
 
 
 const App = () => {
   const context = useContext(Context)
+
+  context.theme ? document.body.classList.add('body-dark') : document.body.classList.remove('body-dark')
+  
     return (
-    <div className={`${context.theme ? 'dark-mode': 'light-mode'}`}>
+    <div className={`main-container ${context.theme ? 'dark-mode': 'light-mode'}`}>
       <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
             <Route path='/' element={<Home />} />
+            <Route path='projects' element={<Work />} />
           </Route>
         </Routes>
       </BrowserRouter>

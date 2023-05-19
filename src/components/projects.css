@@ -38,3 +38,24 @@
     color: #03001C;
     border: 4px solid #03001C;
 }
+
+/*Media Queries*/
+@media screen and (min-width: 700px) {
+    .projects-main-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .projects-container{
+        width: 40%;
+    }
+    .project-img{
+        width: 230px;
+    }
+
+    .project-btn-icon{
+        font-size: 3rem;
+    }
+    .projects-container h3{
+        font-size: 2rem;
+    }
+}
