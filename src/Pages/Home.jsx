@@ -29,8 +29,11 @@ const Home = () => {
     </div>
 
     <img src={avatarImg} alt="avatar-image" className='avatar-img' />
-
+    <h1 id='skills-h1'>Skills</h1>
     <Skills />
+
+    
+
     </div>
   )
 }
