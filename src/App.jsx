@@ -5,6 +5,7 @@ import Home from './Pages/Home'
 import './App.css'
 import { Context } from './components/Context'
 import Work from './Pages/Work'
+import About from './Pages/About'
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route element={<Layout />}>
             <Route path='/' element={<Home />} />
             <Route path='projects' element={<Work />} />
+            <Route path='about' element={<About/>} />
           </Route>
         </Routes>
       </BrowserRouter>

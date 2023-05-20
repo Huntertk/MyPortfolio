@@ -3,6 +3,7 @@ import { BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import './footer.css'
 
 const Footer = () => {
+  const date = new Date()
   return (
     <div className='footer'>
         <div className="footer-icon-container">
@@ -10,7 +11,7 @@ const Footer = () => {
             <BsInstagram />
             <BsTwitter />
         </div>
-      <h3>© 2023 MD TAUFIK All rights reserved.</h3>
+      <h3>© {date.getFullYear()} MD TAUFIK All rights reserved.</h3>
     </div>
   )
 }

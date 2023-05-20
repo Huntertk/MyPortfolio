@@ -17,7 +17,6 @@ const Home = () => {
       className={`home-container-developer-heading 
       ${context.theme ? 'home-dark-mode': 'home-light-mode'}`}
       >MD TAUFIK</h1>
-
       <h3 className={`home-container-developer-speciality 
       ${context.theme ? 'developer-speciality-dark-mode': 'developer-speciality-light-mode'}`}
       >Front End Developer</h3>

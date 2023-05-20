@@ -1,0 +1,40 @@
+.about-main-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+.about-developer-heading{
+    font-size: 2rem;
+    margin: 0;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.about-speciality{
+    font-size: 1.5rem;
+
+    margin: 0.8rem;
+}
+.about-me-details{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+
+/*Media Queries*/
+@media screen and (min-width: 700px) {
+    .about-developer-heading{
+    font-size: 3rem;
+    }
+    .about-speciality{
+        font-size: 2rem;
+    }
+    .about-me-details{
+        font-size: 2rem;
+    }
+
+}

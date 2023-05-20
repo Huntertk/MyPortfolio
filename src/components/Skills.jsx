@@ -1,6 +1,8 @@
 import React from 'react'
 import { DiReact,DiJava,DiBootstrap,DiSass } from "react-icons/di";
-import { SiJavascript,SiHtml5,SiCss3, SiTailwindcss } from "react-icons/si";
+import { SiJavascript,SiHtml5,SiCss3, SiTailwindcss,SiFirebase } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
+
 import './skills.css'
 import Marquee from 'react-fast-marquee'
 
@@ -33,7 +35,14 @@ const Skills = () => {
             <div className="icon">
                 <DiSass />
             </div>
+            <div className="icon">
+                <SiFirebase />
+            </div>
+            <div className="icon">
+                <BsGithub />
+            </div>
         </div>
+        
     </Marquee>
   )
 }

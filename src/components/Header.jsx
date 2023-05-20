@@ -7,6 +7,9 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     const context = useContext(Context)
+    const activeStyle = {
+      color: '#FC2947'
+    }
 
   return (
     <div className='header-container'>
@@ -18,8 +21,8 @@ const Header = () => {
                 context.theme ? <BsFillSunFill className='rotate-center' /> : <BsMoonStarsFill className='rotate-center' />
             }
         </div>
-        <NavLink to='projects'><p>Projects</p></NavLink>
-        <p>About</p>
+        <NavLink to='projects' style={({isActive}) => {return isActive ? activeStyle : null}}><p>Projects</p></NavLink>
+        <NavLink to="about" style={({isActive}) => {return isActive ? activeStyle : null}}><p>About</p></NavLink>
       </div>
     </div>
   )

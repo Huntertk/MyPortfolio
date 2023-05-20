@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from 'react'
 import './projects.css'
 import projectImg from '../assets/images/project-1.png'
 import projectImgOne from '../assets/images/project-2.png'
-import { BsGithub } from "react-icons/bs";
 import { BsBrowserChrome } from "react-icons/bs";
 
 import { Context } from './Context';
@@ -12,7 +11,6 @@ import 'aos/dist/aos.css'
 
 const Projects = () => {
     const context = useContext(Context)
-    console.log(context.theme)
 
     useEffect(() => {
     Aos.init()
