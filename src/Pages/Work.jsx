@@ -30,15 +30,14 @@ const Work = () => {
             })}
         </div>
         <div className="work-icon">
-          <a href={project.hostingUrl} target='_blank'><BsBrowserChrome /></a>
+          <a href={project.hostingUrl} target='_blank' className='link-for-projects'>Live Site</a>
           
         </div>
       </div>
   })
-  console.log(projectData);
   return (
     <>
-      <h1 className='all-projects-container-heading'>All Projects</h1>
+    <h1 className='all-projects-container-heading'>All Projects</h1>
     <div className='work-main-container'>
       {renderProject}
     </div>

@@ -9,7 +9,6 @@ const ContextProvider = (props) => {
             return prev ? false : true
         })
     }
-    console.log(theme)
   return (
     <>
     <Context.Provider value={{
