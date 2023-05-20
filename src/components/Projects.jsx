@@ -25,8 +25,7 @@ const Projects = () => {
       >
         <img src={projectImgOne} alt="" className='project-img'/>
         <h3>Youtube Clone</h3>
-        <div className="project-button-container">
-            <a href='https://github.com/Huntertk/YoutubeClone' target='_blank'><BsGithub className='project-btn-icon github' /></a>  
+        <div className="project-button-container"> 
            <a href='https://react-youtube-clone-app-taufik.netlify.app' target='_blank'> <BsBrowserChrome className='project-btn-icon netlify' /> </a>
         </div>
       </div>
@@ -39,7 +38,6 @@ const Projects = () => {
         <img src={projectImg} alt="" className='project-img'/>
         <h3>Anonymously Tweet</h3>
         <div className="project-button-container">
-           <a href='https://github.com/Huntertk/Anonymously-Tweet' target='_blank'><BsGithub className='project-btn-icon github' /></a>  
            <a href='https://react-anonymously-tweet-app-taufik.netlify.app' target='_blank'> <BsBrowserChrome className='project-btn-icon netlify' /> </a>
         </div>
       </div>

@@ -30,7 +30,6 @@ const Work = () => {
             })}
         </div>
         <div className="work-icon">
-          <a href={project.githubUrl} target='_blank'><BsGithub /></a>
           <a href={project.hostingUrl} target='_blank'><BsBrowserChrome /></a>
           
         </div>
@@ -38,10 +37,12 @@ const Work = () => {
   })
   console.log(projectData);
   return (
+    <>
+      <h1 className='all-projects-container-heading'>All Projects</h1>
     <div className='work-main-container'>
-      <h1>All Projects</h1>
       {renderProject}
     </div>
+    </>
   )
 }
 

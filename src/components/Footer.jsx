@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-icon-container">
-            <a href='https://github.com/Huntertk' target='_blank'><BsGithub /></a>
+            <BsGithub />
             <BsInstagram />
             <BsTwitter />
         </div>
