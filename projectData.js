@@ -8,6 +8,14 @@ export default [
         details: "This Anonymously Tweet is a real time free Anonymously tweet service this has ability to save and store tweet without any personal details.",
         language: ["react","css","firebase"]
     },
+    {
+        id: uuidv4(),
+        name: "Gadget 360",
+        imageUrl: 'https://i.postimg.cc/cJkLpPj4/product.png',
+        hostingUrl: 'https://react-gadget360-app-taufik.netlify.app',
+        details: "This is Modern UI of E-commerce Website it has advance react feature that user can add product to card and place order.",
+        language: ["React","Hooks", "Context API", "CSS",]
+    },
 
     {
         id: uuidv4(),
@@ -88,6 +96,8 @@ export default [
         details: "This is a single todos app that has ability to make a list and delete items from list.",
         language: ["React","Hooks"]
     },
+    
+
 
     
 ]
