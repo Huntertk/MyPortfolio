@@ -2,6 +2,14 @@ import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 export default [
     {
         id: uuidv4(),
+        name: "WeDu",
+        imageUrl: 'https://i.postimg.cc/Kvx2dn7s/prodcut-Img-Four.png',
+        hostingUrl: 'https://nextjs-wedu-app.netlify.app',
+        details: "The is a Tech Company Website Template Build With NextJs and Modern Responsive.",
+        language: ["react","css","NextJs"]
+    },
+    {
+        id: uuidv4(),
         name: "Anonymously Tweet",
         imageUrl: 'https://i.postimg.cc/gkWttkvK/project-1.png',
         hostingUrl: 'https://react-anonymously-tweet-app-taufik.netlify.app',
