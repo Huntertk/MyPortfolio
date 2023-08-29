@@ -1,5 +1,22 @@
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 export default [
+
+    {
+        id: uuidv4(),
+        name: "AlmaBetter Clone",
+        imageUrl: 'https://i.postimg.cc/Y0kySNtM/alma.png',
+        hostingUrl: 'https://almabetterclone-taufik.netlify.app/',
+        details: "This is AlmaBetter Clone.",
+        language: ["reactjs","scss","responsive", "clone"]
+    },
+    {
+        id: uuidv4(),
+        name: "Town Titan",
+        imageUrl: 'https://i.postimg.cc/15kYdZNL/town.png',
+        hostingUrl: 'https://towntitan-react-taufik.netlify.app/',
+        details: "This is my internship project.",
+        language: ["reactjs","css","responsive", "react router v6"]
+    },
     {
         id: uuidv4(),
         name: "WeDu",

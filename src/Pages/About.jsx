@@ -10,9 +10,10 @@ const About = () => {
         <div className="about-container-details">
             <p className='about-developer-heading'>MD TAUFIK</p>
             <div className="underline"></div>
-            <p className='about-speciality'>Front End Developer</p>
-            <p className='about-me-details'>I am a third year of college student and currently i am learning fronted end development in react.</p>
+            <p className='about-speciality'>Front End Developer </p>
+            <p className='about-me-details'>I am a third year of college student and currently i am learning full stack mern stack.</p>
             <p>Contact me :- factsofuniverse8@gmail.com</p>
+            <p>Github Repo :- <a href="https://github.com/Huntertk">https://github.com/Huntertk</a></p>
         </div>
     </div>
   )
