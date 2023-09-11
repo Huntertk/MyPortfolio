@@ -3,11 +3,19 @@ export default [
 
     {
         id: uuidv4(),
+        name: "MBA ChaiWala Clone",
+        imageUrl: 'https://i.postimg.cc/brMQhM9c/Screenshot-2023-09-11-124109.png',
+        hostingUrl: 'https://mba-chaiwala-app-taufik-react.netlify.app',
+        details: "This is MBA Chailwala clone.",
+        language: ["react","scss","responsive", "clone", "framer motion"]
+    },
+    {
+        id: uuidv4(),
         name: "AlmaBetter Clone",
         imageUrl: 'https://i.postimg.cc/Y0kySNtM/alma.png',
         hostingUrl: 'https://almabetterclone-taufik.netlify.app/',
         details: "This is AlmaBetter Clone.",
-        language: ["reactjs","scss","responsive", "clone"]
+        language: ["react","scss","responsive", "clone"]
     },
     {
         id: uuidv4(),
